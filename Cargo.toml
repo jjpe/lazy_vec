@@ -1,7 +1,7 @@
 [package]
 name = "lazy_vec"
 description = "A lazily initialized (but eagerly allocated) Vec-like datastructure"
-version = "0.2.0"
+version = "0.3.0"
 edition = "2024"
 license = "Apache-2.0"
 authors = ["Joey Ezechiëls"]
