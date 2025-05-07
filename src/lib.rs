@@ -230,6 +230,7 @@ where
 }
 
 
+#[macro_export]
 /// Create a new `LazyVec<T>` value.
 macro_rules! lazy_vec {
     ($default:expr ; as $value_type:ty ; named $label:expr) => {{
@@ -248,7 +249,6 @@ macro_rules! lazy_vec {
     }}
 }
 
-pub(crate) use lazy_vec;
 
 #[cfg(test)]
 mod tests {
